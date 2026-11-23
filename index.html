@@ -78,6 +78,9 @@
     .sheet { box-shadow: 4px 4px 0 var(--ink); }
   }
   @media (prefers-reduced-motion: reduce) { button { transition: none; } }
+  @media (max-width: 480px) {
+  button.primary { width: 100%; min-height: 48px; font-size: 1rem; }
+}
 </style>
 </head>
 <body>
